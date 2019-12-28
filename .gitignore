@@ -1,0 +1,41 @@
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VS Code folders
+.vscode/
+
+# obj and bin folders should not be committed as there should be nothing but 
+# .exe and .obj in them, but they are ignored for insurance
+bin/
+obj/

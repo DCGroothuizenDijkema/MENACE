@@ -1,0 +1,6 @@
+.\src\board.cpp
+.\src\control.cpp
+.\src\game.cpp
+.\src\player.cpp
+.\src\ui.cpp
+.\test\test.cpp
