@@ -26,6 +26,7 @@
 *.la
 *.a
 *.lib
+*.exp
 
 # Executables
 *.exe
@@ -34,8 +35,3 @@
 
 # VS Code folders
 .vscode/
-
-# obj and bin folders should not be committed as there should be nothing but 
-# .exe and .obj in them, but they are ignored for insurance
-bin/
-obj/

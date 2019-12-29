@@ -6,7 +6,7 @@
 // D. C. Groothuizen Dijkema - November, 2019                                                                                            //
 //+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+//
 
-// Test file for the Board class MENACE
+// Test file for the Board class of MENACE
 
 
 #include <array>

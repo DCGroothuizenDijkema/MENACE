@@ -6,7 +6,7 @@
 // D. C. Groothuizen Dijkema - November, 2019                                                                                            //
 //+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+//
 
-// Test file for the MENACE
+// Test file for MENACE helper functions
 
 
 #include <menace.hpp>
