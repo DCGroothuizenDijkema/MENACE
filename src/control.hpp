@@ -45,7 +45,7 @@ private:
   UI ui;
   Board board;
   // humans, menaces, and randoms exist for the enite programme runtime
-  // automaton_one and automaton_two change to meance, or random they point for each game
+  // automaton_one and automaton_two point to meance or random for each game
   Player human_one,human_two;
   MENACE menace_one,menace_two;
   Random random_one,random_two;
