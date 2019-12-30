@@ -9,8 +9,6 @@ The application was developed for Microsoft Windows only, and cannot be compiled
 
 ## Building
 
-Note the following build commands require ```./bin/``` and ```./obj/``` directories to be created before executing either of the commands.
-
 The programme can be built with the provided Makefile and nmake, with the following command:
 
 ```shell
@@ -22,6 +20,8 @@ The tests can be built with the provided Makefile and nmake, with the following 
 ```shell
 nmake test
 ```
+
+Note the following two build commands require ```./bin/``` and ```./obj/``` directories to be created before executing either of the commands.
 
 Further, the programme can be built using MSVC on the command line with the following command:
 
