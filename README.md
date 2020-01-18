@@ -3,6 +3,8 @@
 
 MENACE: the Machine Educable Noughts And Crosses Engine
 
+## Purpose
+
 MENACE is a command line application for playing noughts and crosses, inspired by Donald Michie's original programme, but does not use the same algorithm. It instead uses an implementation of the minimax algorithm with alpha-beta pruning.
 
 The application was developed for Microsoft Windows only, and cannot be compiled on another system as it uses Windows specific terminal manipulation.
