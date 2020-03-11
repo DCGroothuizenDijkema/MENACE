@@ -197,10 +197,9 @@ BoardIterator &BoardIterator::operator++()
   //  - a reference *this
   // 
 
-  ++this->board_itr;
-  this->elem.val=*this->board_itr;
+  this->elem.val=*++this->board_itr;
   ++this->elem.pos;
-  this->elem.ind=static_cast<size_t>(this->elem.pos);
+  ++this->elem.ind;
   return *this;
 }
 
@@ -382,7 +381,7 @@ bool Board::check_equal(const std::array<POSITION,3> &pos) const
   //  - an iterator at the beginning of the board
   //
 
-  return BoardIterator(this->board.begin(),this->board.begin());
+  return BoardIterator(std::begin(this->board),std::begin(this->board));
 }
 
 [[nodiscard]] BoardIterator Board::end(void) const
@@ -396,7 +395,7 @@ bool Board::check_equal(const std::array<POSITION,3> &pos) const
   //  - an iterator at the end of the board
   //
 
-  return BoardIterator(this->board.begin(),this->board.end());
+  return BoardIterator(std::begin(this->board),std::end(this->board));
 }
 
 [[nodiscard]] ITERATION Board::get_plays(void) const
@@ -655,7 +654,7 @@ Board &Board::operator<<=(int n)
   return *this;
 }
 
-void swap(BoardIterator& first, BoardIterator& second) noexcept
+void swap(BoardIterator &first, BoardIterator &second) noexcept
 {
   //
   // Swap two BoardIterator objects
