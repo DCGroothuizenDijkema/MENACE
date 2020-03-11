@@ -77,7 +77,7 @@ bool Automaton::valid_move(const Board &state, POSITION pos) const
   //
   // parameters
   // ----------
-  // state : const Board & 
+  // state : const Board &
   //  - the Board to check against
   // pos : POSITION 
   //  - the position of the move
@@ -108,7 +108,7 @@ std::vector<POSITION> Automaton::determine_possible_moves(const Board &state) co
   //
   // parameters
   // ----------
-  // state : const Board & 
+  // state : const Board &
   //  - the Board to check against
   //
   // returns

@@ -99,10 +99,10 @@ public:
   BoardIterator &operator++();
   BoardIterator operator++(int);
   // comparison
-  friend inline bool operator==(const BoardIterator & lhs, const BoardIterator &rhs);
-  friend inline bool operator!=(const BoardIterator & lhs, const BoardIterator &rhs);
+  friend inline bool operator==(const BoardIterator &lhs, const BoardIterator &rhs);
+  friend inline bool operator!=(const BoardIterator &lhs, const BoardIterator &rhs);
   // swap
-  friend void swap(BoardIterator& first, BoardIterator& second) noexcept;
+  friend void swap(BoardIterator &first, BoardIterator &second) noexcept;
 };
 
 class Board
@@ -140,7 +140,7 @@ public:
   // io
   friend std::ostream &operator<<(std::ostream &os, const Board &board); // defined in ui.cpp to make use of coloured text
   // swap
-  friend void swap(Board& first, Board& second) noexcept;
+  friend void swap(Board &first, Board &second) noexcept;
 
 private:
   ITERATION plays;
@@ -156,7 +156,7 @@ private:
 };
 
 // Inline Overloads
-inline bool operator==(const BoardIterator & lhs, const BoardIterator &rhs)
+inline bool operator==(const BoardIterator &lhs, const BoardIterator &rhs)
 {
   //
   // BoardIterator operator==
