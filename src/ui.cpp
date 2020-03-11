@@ -172,7 +172,7 @@ POSITION UI::get_move(const ITERATION itr)
   {
     row=std::stoi(pos.substr(0,1));
     col=std::stoi(pos.substr(pos.size()-1,1));
-    if ((find(std::vector({0,1,2}),row)==-1)||(find(std::vector({0,1,2}),col)==-1)) { throw unknown_position(raw); } // invalid int
+    if ((find(std::vector<int>({0,1,2}),row)==-1)||(find(std::vector<int>({0,1,2}),col)==-1)) { throw unknown_position(raw); } // invalid int
     return static_cast<POSITION>(row*3+col); // valid int
   }
   // if the above fails, the position was entered as words

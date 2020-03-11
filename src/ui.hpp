@@ -13,6 +13,8 @@
 #ifndef UI_H__
 #define UI_H__
 
+#include <cctype>
+
 #include <iomanip>
 #include <iostream>
 
@@ -127,7 +129,7 @@ public:
   void set_advisial(const POSITION pos);
   void reset_advisial(void);
 
-  friend std::ostream& operator<<(std::ostream& os, const Board& board);
+  friend std::ostream &operator<<(std::ostream &os, const Board &board);
 
 private:
   void intro_screen(void);
