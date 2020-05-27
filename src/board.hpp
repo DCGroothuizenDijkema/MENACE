@@ -235,7 +235,7 @@ inline Board operator<<(Board lhs, const int n)
 {
   //
   // Board operator<<
-  // rotate Board::board n quater turns counterclockwise
+  // Rotate Board::board n quater turns counterclockwise
   //
   // parameters
   // ----------
